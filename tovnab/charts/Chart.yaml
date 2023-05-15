@@ -1,0 +1,11 @@
+apiVersion: v2
+name: java-instrumentation
+description: Java instrumentation
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+
+dependencies:
+- name: raw
+  version: 0.2.5
+  repository: "https://charts.itscontained.io"
